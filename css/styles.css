@@ -94,14 +94,10 @@ body {
 	display: flex;
 	justify-content: flex-start;
 	margin-left: 76px;
+	gap: 40px;
 }
 
 .header-item {
-	padding-right: 40px;
-}
-
-.header-item:last-child {
-	padding-right: 0;
 }
 
 .header-link {
@@ -126,10 +122,10 @@ body {
 .address-list {
 	display: flex;
 	justify-content: flex-end;
+	gap: 40px;
 }
 
 .address-item {
-	padding-right: 40px;
 }
 
 .address-link {
@@ -172,7 +168,7 @@ body {
 	color: var(--color-white);
 	border: none;
 	padding: 16px 32px;
-	margin-top: 30px;
+	margin-top: 48px;
 	cursor: pointer;
 	font-family: Roboto, sans-serif;
 	border-radius: 4px;
@@ -192,6 +188,7 @@ body {
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--color-background);
+	margin-bottom: 8px;
 }
 
 .main-item-text {
@@ -211,7 +208,7 @@ body {
 	text-transform: capitalize;
 	text-align: center;
 	color: var(--color-background);
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .about-list {
@@ -237,7 +234,7 @@ body {
 	text-transform: capitalize;
 	text-align: center;
 	color: var(--color-background);
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .team-list {
@@ -252,6 +249,16 @@ body {
 	width: calc((100% - 3 * 24px) / 4);
 }
 
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.team-item-description {
+	padding: 32px 0;
+}
+
 .team-item-subtitle {
 	font-weight: 500;
 	font-size: 20px;
@@ -259,7 +266,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-background);
 	text-align: center;
-	margin-top: 32px;
+	margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -268,7 +275,6 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-text);
 	text-align: center;
-	margin-bottom: 32px;
 }
 
 .footer {
@@ -304,7 +310,7 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-border);
 	width: 264px;
-	padding-top: 16px;
+	margin-top: 16px;
 }
 
 .filters {
@@ -314,7 +320,7 @@ body {
 	display: flex;
 	justify-content: center;
 	gap: 24px;
-	padding-bottom: 72px;
+	margin-bottom: 72px;
 }
 
 .filters-item {
